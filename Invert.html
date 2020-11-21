@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let arrrandom = new Array(2,4,5,6,2,5)
+        let first = 0 ;
+        let last = arrrandom.length - 1 ;
+        while (first < last){
+            let b = arrrandom[first];
+            arrrandom[first] = arrrandom[last];
+            arrrandom[last] = b;
+            first++;
+            last--;
+        }
+        document.write(arrrandom);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
